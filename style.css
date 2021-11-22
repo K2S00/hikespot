@@ -2,7 +2,25 @@
     --primary: #F4A442;
     --secondary: #f5f3f0;
 }
-
+@keyframes filling {
+    from{
+      background-position: center 25%;
+    }
+    to {
+      background-position: center 50%;
+    }
+  }
+  
+  .container-text {
+    background-image:  url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:  #FFFFFF;
+    padding-top: 20px;
+    font-size: 170px;
+    font-family: 'Bungee', cursive;
+    animation: filling 3s ease forwards;
+  }
 
 body {
     background-image: url(./assets/img/maroon.png);
