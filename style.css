@@ -1,0 +1,104 @@
+@keyframes filling {
+    from{
+      background-position: center 25%;
+    }
+    to {
+      background-position: center 50%;
+    }
+  }
+  
+  .container-text {
+    background-image:  url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:  #FFFFFF;
+    padding-top: 20px;
+    font-size: 5rem;
+    font-family: 'Bungee', cursive;
+    animation: filling 3s ease forwards;
+  }
+  
+  body {
+	  justify-content: center;
+	  align-items: center;
+      
+  }
+  .hero {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+  }
+  .header {
+    font-size: 4.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+}
+
+
+
+.other-head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.container-left {
+    margin-left: 30px;
+}
+
+#search-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #460f3e;
+    background-color: var(--secondary);
+    margin-top: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+}
+
+#weather-div {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #460f3e;
+    
+}
+
+#map, #playlist {
+   margin: 20px 20px;
+}
+
+
+
+
+
+/* .container-left {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: nowrap;
+    margin: 2rem;
+}
+.container-right {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end space-between;
+    text-align: center;
+} */
